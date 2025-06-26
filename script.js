@@ -25,7 +25,7 @@ createBtn.addEventListener("click", () => {
     inputBox.className = "input-box";
     inputBox.setAttribute("contenteditable", "true");
 
-    img.src = "/img/download (1).png";
+    img.src = "img/download (1).png";
     img.alt = "Delete Note";
 
     inputBox.appendChild(img);
