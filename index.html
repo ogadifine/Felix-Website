@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://api.iconify.design/mdi:code-tags.svg" type="image/svg+xml">
-    <title>Notes App</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Notes App</title>
+      <link rel="icon" href="https://api.iconify.design/mdi:code-tags.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-    <div class="container">
-        <h1><img src="img/note icon.png" alt="Note Icon"> Notes</h1>
-        <button class="btn"><img src="img/edit icon.png" alt="Edit Icon">Create Notes</button>
-        <div class="notes-container">
-            <!-- Notes will be appended here -->
-        </div>
+  <div class="container">
+    <h1><img src="/img/note icon.png" alt="Note Icon" /> Notes</h1>
+
+    <button class="btn create"><img src="/img/edit icon.png" alt="Edit Icon" /> Create Note</button>
+    <button class="btn" onclick="downloadNotes()">📥 Download Notes</button>
+    <a class="btn" href="FelixNotesApp.zip" download>📦 Download the Notes App</a>
+
+    <div class="notes-container">
+      <!-- Notes will appear here -->
     </div>
-    
-    <script src="script.js"></script>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
